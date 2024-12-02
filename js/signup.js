@@ -11,7 +11,7 @@ var allInputs = document.querySelectorAll(".input-group");
 if (localStorage.getItem("users") === null) {
 	localStorage.setItem("users", JSON.stringify([]));
 }
-g
+
 for (let i = 0; i < inputs.length; i++) {
 	inputs[i].addEventListener("focus", function () {
 		allInputs[i].classList.add("focused");
